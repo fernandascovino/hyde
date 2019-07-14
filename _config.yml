@@ -2,25 +2,36 @@
 markdown:         redcarpet
 highlighter:      pygments
 
-# Permalinks
 permalink:        pretty
-relative_permalinks: true
 
-# Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            Fernanda Scovino
+tagline:          'My blog'
+description:      'Working on data about education in Brazil and cool stuff in Python. Applied mathematician by the end of the year (I hope).'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'fernandascovino'
+  url:            https://twitter.com/fernandascovino
 
+plugins:
+  - jekyll-paginate
+# paginate: 5
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+# version:          2.1.0
+github:           https://github.com/fernandascovino
 
-github:
-  repo:           https://github.com/poole/hyde
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
