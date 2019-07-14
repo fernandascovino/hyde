@@ -177,6 +177,24 @@ a.sidebar-nav-item:focus {
 
 /* Base16 (http://chriskempson.github.io/base16/#default) */
 
+/* My green */
+.theme-base-0mg .sidebar {
+  background-color: #b6c26c;
+}
+.theme-base-0mg .content a,
+.theme-base-0mg .related-posts li a:hover {
+  color: #9ea74c;
+}
+
+/* My blue */
+.theme-base-0mb .sidebar {
+  background-color: #8cc2c9;
+}
+.theme-base-0mb .content a,
+.theme-base-0mb .related-posts li a:hover {
+  color: #6a9fb5;
+}
+
 /* Red */
 .theme-base-08 .sidebar {
   background-color: #ac4142;
@@ -193,15 +211,6 @@ a.sidebar-nav-item:focus {
 .theme-base-09 .content a,
 .theme-base-09 .related-posts li a:hover {
   color: #d28445;
-}
-
-/* Yellow */
-.theme-base-0a .sidebar {
-  background-color: #f4bf75;
-}
-.theme-base-0a .content a,
-.theme-base-0a .related-posts li a:hover {
-  color: #f4bf75;
 }
 
 /* Green */
